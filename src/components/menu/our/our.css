@@ -1,0 +1,211 @@
+#service {
+  margin-top: 100px;
+  height: 100vh;
+  margin-bottom: 100px;
+}
+.service h1 {
+  color: #181818;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.service p {
+  width: 542px;
+  color: rgba(24, 24, 24, 0.7);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.box {
+  width: 370px;
+  height: 385px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 0.5px solid #e3e3e3;
+  background: #fff;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.box:hover {
+  box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.08);
+}
+.box1:hover {
+  box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.08);
+}
+.box2:hover {
+  box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.08);
+}
+.box3:hover {
+  box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.08);
+}
+
+.box .boxcontent img {
+  width: 71px;
+  height: 71px;
+  flex-shrink: 0;
+  padding-top: 63px;
+  padding-left: 48px;
+}
+.box .boxcontent h1 {
+  color: #181818;
+  padding-left: 48px;
+  padding-top: 30px;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.box .boxcontent p {
+  width: 274px;
+  color: rgba(24, 24, 24, 0.7);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  padding-top: 20px;
+  padding-left: 48px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.box1 {
+  width: 370px;
+  height: 385px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 0.5px solid #e3e3e3;
+  background: #fff;
+  margin-top: 30px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.box1 .boxcontent img {
+  width: 71px;
+  height: 71px;
+  flex-shrink: 0;
+  padding-top: 63px;
+  padding-left: 48px;
+}
+.box1 .boxcontent h1 {
+  color: #181818;
+  padding-left: 48px;
+  padding-top: 30px;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.box1 .boxcontent p {
+  width: 274px;
+  color: rgba(24, 24, 24, 0.7);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  padding-top: 20px;
+  padding-left: 48px;
+}
+.box2 {
+  width: 370px;
+  height: 385px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 0.5px solid #e3e3e3;
+  background: #fff;
+  margin-top: 30px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.box2 .boxcontent img {
+  width: 71px;
+  height: 71px;
+  flex-shrink: 0;
+  padding-top: 63px;
+  padding-left: 48px;
+}
+.box2 .boxcontent h1 {
+  color: #181818;
+  padding-left: 48px;
+  padding-top: 30px;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.box2 .boxcontent p {
+  width: 274px;
+  color: rgba(24, 24, 24, 0.7);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  padding-top: 20px;
+  padding-left: 48px;
+}
+.box3 {
+  width: 370px;
+  height: 385px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 0.5px solid #e3e3e3;
+  background: #fff;
+  margin-top: 30px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.box3 .boxcontent img {
+  width: 71px;
+  height: 71px;
+  flex-shrink: 0;
+  padding-top: 63px;
+  padding-left: 48px;
+}
+.box3 .boxcontent h1 {
+  color: #181818;
+  padding-left: 48px;
+  padding-top: 30px;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.box3 .boxcontent p {
+  width: 274px;
+  color: rgba(24, 24, 24, 0.7);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  padding-top: 20px;
+  padding-left: 48px;
+}

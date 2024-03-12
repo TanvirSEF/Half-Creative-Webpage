@@ -1,0 +1,83 @@
+#portfolio {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+.portcontent h1 {
+  color: #181818;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.portcontent p {
+  width: 542px;
+  color: rgba(24, 24, 24, 0.7);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.worklist {
+  width: 800px;
+  height: 70px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: rgba(89, 86, 232, 0.05);
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.worklist ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.worklist ul li a {
+  line-height: 70px;
+  color: #181818;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.worklist ul li .active,
+.worklist ul li a:hover {
+  color: #5956e8;
+}
+#portfolio .flex {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#portfolio .flex .project {
+  position: relative;
+}
+#portfolio .flex .project .piccon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 230px;
+  height: 113px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #5956e8;
+  opacity: 0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+#portfolio .flex .project .piccon:hover {
+  opacity: 1;
+}

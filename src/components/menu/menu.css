@@ -1,0 +1,117 @@
+nav{
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+}
+nav .main{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    line-height: 100px;
+}
+nav .main img{
+    width: 100px;
+}
+nav .main ul{
+    display: flex;
+}
+nav .main ul .active{
+    color: #5956E8;
+}
+nav .main ul li a{
+    padding: 0 20px;
+    font-family: "Inter", sans-serif;
+    color: #181818;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    transition: .5s;
+}
+nav .main ul li a:hover{
+    color: #5956E8;
+}
+nav .main ul li a::after {
+    position: absolute;
+    content: '';
+    height: 0px;
+    width: 0px;
+    display: block;
+    background-color: #5956E8;
+    transition: 0.5s;
+    top: 23px;
+    left: 43px;
+}
+nav .main ul li .service::after{
+    position: absolute;
+    content: '';
+    height: 0px;
+    width: 0px;
+    display: block;
+    background-color: #5956E8;
+    transition: 0.5s;
+    top: 23px;
+    left: 50px;
+}
+nav .main ul li .service:hover::after{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+nav .main ul li .blog::after{
+    position: absolute;
+    content: '';
+    height: 0px;
+    width: 0px;
+    display: block;
+    background-color: #5956E8;
+    transition: 0.5s;
+    top: 23px;
+    left: 37px;
+}
+nav .main ul li .blog:hover::after{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+nav .main ul li .contact::after {
+    position: absolute;
+    content: '';
+    height: 0px;
+    width: 0px;
+    display: block;
+    background-color: #5956E8;
+    transition: 0.5s;
+    top: 23px;
+    left: 54px;
+}
+nav .main ul li .contact:hover::after{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+nav .main ul li a:hover::after{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+.main .btn a{
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    color: #181818;
+    font-size: 15px;
+    font-weight: 700;
+    border: 1px solid #5956E8;
+    transition: .5s;
+}
+.main .btn a:hover{
+    background-color: #5956E8;
+    color: #fff;
+}
